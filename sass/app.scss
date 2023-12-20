@@ -1,0 +1,59 @@
+// Variables
+@import '@/../sass/_variables';
+@import '@/../sass/_buttons';
+@import '@/../sass/_containers';
+@import '@/../sass/_controllers';
+
+html {
+    height: 100%;
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    body {
+        font-style: normal;
+        height: 100%;
+        margin: 0;
+
+        #app {
+            height: 100%;
+
+            .left {
+                float: left;
+            }
+
+            .right {
+                float: right;
+            }
+
+            .opacity{
+                &-0{
+                    opacity: 0;
+                }
+
+                &-25 {
+                    opacity: .25;
+                }
+
+                &-50 {
+                    opacity: .5;
+                }
+
+                &-75 {
+                    opacity: .75;
+                }
+
+                &-100 {
+                    opacity: 1;
+                }
+            }
+
+            .cursor-pointer {
+                cursor: pointer;
+            }
+
+            .flex {
+                display: flex;
+            }
+        }
+    }
+}
+
