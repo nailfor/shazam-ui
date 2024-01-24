@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "lodash": "^4.17.19",
+        "sass": "^1.52.3",
+        "sass-loader": "^13.0.0",
+        "vue-advanced-cropper": "^2.8.6",
+        "vue-loader": "^16.8.3",
+        "vue-meta": "^3.0.0-alpha.10"
+    },
+    "dependencies": {
+        "@vitejs/plugin-vue": "^4.2.3",
+        "axios": "^1.5.1",
+        "chart.js": "^4.4.0",
+        "laravel-vite-plugin": "^1.0.0",
+        "pinia": "^2.1.7",
+        "vite-plugin-glob": "^0.3.2",
+        "vue": "^3.2.37",
+        "vue-chartjs": "^5.2.0",
+        "vue-i18n": "^9.6.1",
+        "vue-router": "^4.2.5"
+    }
+}
